@@ -1,0 +1,48 @@
+.container2 {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("https://images.pexels.com/photos/4268140/pexels-photo-4268140.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-size: cover;
+    background-position: center;
+}
+.container2 h1 {
+    color: #fff;
+}
+.lead {
+    color: #fff;
+}
+.header {
+    display: grid;
+    
+}
+.header h1 {
+    margin-top: 280px; 
+    margin-left: 900px;
+    font-size: 40px;
+    text-shadow: 0 0.09rem 0.5rem rgba(0,0,0,0.9);
+}
+.intro {
+    display: grid;  
+}
+.intro p { 
+    margin-top: px; 
+    margin-left: 600px;
+    font-size: 30px;
+    text-shadow: 0 0.09rem 0.5rem rgba(0,0,0,0.9);  
+}
+.button {
+    background-color: rgb(203, 203, 236);
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    margin: auto;
+    cursor: pointer;
+    /* transition: background 200ms ease-in, color 200ms ease-in; */
+    transition: transform 300ms ease-in;
+    border-radius: 0.9rem;
+}
+.button:hover {
+    transition: transform 300ms ease-in;
+    background-color: rgb(92, 92, 139);
+    color: #fff;
+}

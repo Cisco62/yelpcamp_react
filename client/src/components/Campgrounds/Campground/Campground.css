@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+
+
+body {
+    font-family: Oxygen, sans-serif;
+    margin: 2rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    overflow: hidden;
+    box-shadow: 0 2px 20px gray;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 300ms ease-in;
+    margin: 10px;
+    position: relative;
+    background-color: #fff;
+    height: 100%;
+    
+}
+.card-image {
+    width: 100%;
+    object-fit: cover;
+    height: 0;
+    padding-top: 56.25%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;   
+}
+.card-title {
+    padding: 1rem;
+}
+.card-location {
+    padding: 0 1rem;
+}
+.card-price {
+    padding: 1rem;
+}
+.card-description {
+    padding: 0 1rem;
+}
+.card-btn {
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+    border: 2px solid steelblue;
+    background: transparent;
+    color: steelblue;
+    border-radius: 0.2rem;
+    transition: background 200ms ease-in, color 200ms ease-in;
+}
+.card:hover {
+    transform: scale(1.02);
+}
+.card-btn:hover {
+    background: steelblue;
+    color: blue;
+    cursor: pointer;
+}
+.card-btn2:hover {
+    background: steelblue;
+    color: red;
+    cursor: pointer;
+}
+.btns {
+    padding: 0 16px 8px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.overlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+}
+.overlay2 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+}
+.cardAction {
+    padding: 0 16px 8px 16px;
+    display: flex;
+    justify-content: space-between;
+}
